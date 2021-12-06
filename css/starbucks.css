@@ -103,10 +103,8 @@ a.white:hover{
 }
 
 .menu-burger{
-    width: 32px;
-    height: 32px;
     cursor: pointer;
-    padding: 8px;
+    padding: 10px;
     border-radius: 50%;
     color: rgb(109, 109, 109);
     transition: all 0.2s ease-in-out;

@@ -33,6 +33,9 @@ menuBurger.addEventListener('click', ()=>{
         bodyScroll.style.height = 'auto';
         menuBurger.classList.add('fi-rr-minus');
         menuBurger.classList.remove('fi-rr-cross');
+        if(menuBar.classList.contains('open')){
+            menuBar.classList.remove('open');
+        }
         setTimeout(()=>{menuParent.classList.remove('rotate')},100);
         setTimeout(()=>{
             menuBurger.classList.remove('fi-rr-minus');
